@@ -47,10 +47,18 @@ Test: "It will add a task item to the console"
 Code: let task = new Task("Walk Dog")  
 Expected Output: undefined  
 
-Test: "It will return previously added task" 
-Code: taskList.tasks
-Expected Output: {Walk Dog: Task}
+Test: "It will return previously added task"  
+Code: taskList.tasks  
+Expected Output: {Walk Dog: Task}  
 
 Test: "It will find/delete the task item"  
 Code: delete this.tasks[id];  
-Expected Output: 
+Expected Output:   
+
+Test: "It will add tasks to the console from the form input"  
+Code: taskList  
+Expected Output: TaskList {tasks: {…}, currentId: 1}  
+
+Test: "It will display inputted tasks in a ul"  
+Code:   
+Expected Output: "Walk Dog: 1"  
