@@ -21,7 +21,7 @@ This simple HTML site uses HTML forms and JS functionality to return a list of i
 * _Clone this repository to your desktop_
 * _Go to the top level of this directory_
 * _Open index.html in your browser_
-* _fill out form inputs_
+* _Fill out form inputs_
 * _Submit items to see the list_
 * _Mark items once done_
 
@@ -38,3 +38,17 @@ Copyright (c) 2021 Paige Tiedeman
 ## Contact Information
 
 _Paige Tiedeman **paigetiedeman@gmail.com**_
+
+## Tests:
+
+### Describe TaskList();
+
+Test: "It will add a task item to the console"  
+Code: let task = new Task("Walk Dog")  
+Expected Output: undefined  
+
+Test: "It will return previously added task" 
+Code: taskList.tasks
+Expected Output: {Walk Dog: Task}
+
+Test: 
