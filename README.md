@@ -51,4 +51,6 @@ Test: "It will return previously added task"
 Code: taskList.tasks
 Expected Output: {Walk Dog: Task}
 
-Test: 
+Test: "It will find/delete the task item"  
+Code: delete this.tasks[id];  
+Expected Output: 
