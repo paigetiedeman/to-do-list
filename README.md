@@ -27,7 +27,7 @@ This simple HTML site uses HTML forms and JS functionality to return a list of i
 
 ## Known Bugs
 
-* _N/A_
+* _Delete Button not functioning_
 
 ## License
 
